@@ -1,0 +1,14 @@
+.loginsurface {
+  min-height: 580px;
+}
+.bd_login{
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  background-image:url(https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  width: 50vh;
+  height: 70vh;
+ 
+
+}

@@ -1,0 +1,68 @@
+div.absolute {
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    border: 3px solid #8AC007;
+  } 
+  
+  div.relative {
+    position: relative;
+    width: 50%;
+    bottom: 5px;
+    border: 3px solid #8AC007;
+    background-color: red;
+  } 
+
+  .text {
+    
+    width: 450px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+  .bdg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    background-size: cover;
+    background-position: top;
+    background-image:url(https://images.pexels.com/photos/4206085/pexels-photo-4206085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+    
+    height: 82vh;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+
+    -webkit-font-smoothing: antialiased; 
+  }
+  
+  .bd_blog{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url(https://images.pexels.com/photos/3391932/pexels-photo-3391932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased; 
+  }
+  .bd_blog2{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased; 
+  }
+  .tourne {
+    transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+ 
+  }
